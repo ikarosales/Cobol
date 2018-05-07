@@ -1,0 +1,18 @@
+# general
+
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+# project specific
+
+target/*
+src/test/cobol/TESTPRG.CBL
+*.so
+
+# Windows specific
+
+*.dll
+*.exe
