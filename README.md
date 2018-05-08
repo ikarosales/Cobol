@@ -7,8 +7,8 @@ Abaixo estão os passos para realizar a criação de um ambiente Cobol localment
   ```
   http://www.arnoldtrembley.com/GnuCOBOL.htm
   ```
-  * Criar pasta ( *C:\Cobol* )
-  * Extrair o GnuCOBOL 2.2
+  * Criar pasta ( *C:\GnuCOBOL* )
+  * Extrair o GnuCOBOL 2.2 ou Executar o GC22.exe
   * Adicionar as Variáveis de Ambiente
   ```
     PATH                   C:\GnuCOBOL\bin
