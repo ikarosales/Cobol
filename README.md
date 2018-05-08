@@ -36,7 +36,7 @@ Abaixo estão os passos para realizar a criação de um ambiente Cobol localment
   ```
   * Compile o código COBOL 
   ```
-    cobc -conf=config/default.config -x program.cob
+    cobc -xj program.cob
   ```
   * Execute o .EXE
   ```
