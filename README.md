@@ -11,7 +11,7 @@ Abaixo estão os passos para realizar a criação de um ambiente Cobol localment
   * Extrair o GnuCOBOL 2.2 ou Executar o GC22.exe
   * Adicionar as Variáveis de Ambiente
   ```
-    PATH                   C:\GnuCOBOL\bin
+    PATH                   C:\GnuCOBOL\bin (Variável do Sistema)
     COB_CONFIG_DIR         C:\GnuCOBOL\config
     COB_LIBRARY_PATH       C:\GnuCOBOL\bin
     COB_COPY_DIR           C:\project\COPY
@@ -22,12 +22,12 @@ Abaixo estão os passos para realizar a criação de um ambiente Cobol localment
   ```
   https://github.com/neopragma/cobol-unit-test.git
   ```
-  * Criar pasta ( *C:\Cobol\unit-test* )
+  * Criar pasta ( *C:\project* )
   * Extrair o Cobol Unit Test
-  * Adicionar a Variável de Ambiente ( *C:\Cobol\unit-test* )
+  * Adicionar a Variável de Ambiente ( *C:\project* )
 
 ## Executando 
-  * Abrir o VSCode
+  * Abrir o Visual Studio Code
   * Adicionar extensão ( *CTRL+SHIFT+X* ) COBOL Syntax Support
   * Abra o Terminal ( *CTRL+'* )
   * Converta o código COBOL em Unix/Linux
