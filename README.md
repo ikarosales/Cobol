@@ -9,7 +9,15 @@ Abaixo estão os passos para realizar a criação de um ambiente Cobol localment
   ```
   * Criar pasta ( *C:\Cobol* )
   * Extrair o GnuCOBOL 2.2
-  * Adicionar a Variável de Ambiente ( *C:\Cobol\bin* )
+  * Adicionar as Variáveis de Ambiente
+  ```
+    PATH – C:\GnuCOBOL\bin (Variável do compilador).
+    COB_CONFIG_DIR - C:\GnuCOBOL\config
+    COB_COPY_DIR - C:\losangorepo\COPY
+    COB_LIBRARY_PATH - C:\GnuCOBOL\bin
+    COB_SCREEN_ESC - Y
+    COB_SCREEN_EXCEPTIONS – Y
+  ```
   * Baixar o Cobol Unit Test
   ```
   https://github.com/neopragma/cobol-unit-test.git
