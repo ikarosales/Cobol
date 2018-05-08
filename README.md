@@ -13,8 +13,8 @@ Abaixo estão os passos para realizar a criação de um ambiente Cobol localment
   ```
     PATH – C:\GnuCOBOL\bin (Variável do compilador).
     COB_CONFIG_DIR - C:\GnuCOBOL\config
-    COB_COPY_DIR - C:\losangorepo\COPY
     COB_LIBRARY_PATH - C:\GnuCOBOL\bin
+    COB_COPY_DIR - C:\project\COPY
     COB_SCREEN_ESC - Y
     COB_SCREEN_EXCEPTIONS – Y
   ```
