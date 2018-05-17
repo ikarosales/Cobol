@@ -47,7 +47,7 @@ $    dos2unix program.cob
   ```
 $    cobc -xj program.cob
   ```
-  * Caso necessário adicione *diretório* para copiar/incluir um arquivo que esteja em um diretório diferente do código de execução.
+  * Caso seja necessário adicionar um *diretório* para copiar/incluir um arquivo que esteja em um diretório diferente do código de execução, basta adicionar a cláusula *-I*.
   ```
 $    cobc -xj program.cob -I ./<diretorio>
   ```
@@ -71,7 +71,7 @@ $    run-ut INDEX_CONFIG INDEX INDEX_TEST
   * GnuCOBOL
     * http://www.arnoldtrembley.com/GnuCOBOL.htm
     * http://open-cobol.sourceforge.io/doc/gnucobol.html
-	  * http://opencobol.add1tocobol.com/oc_gettingstarted_windows.html#_Toc223775007
+    * http://opencobol.add1tocobol.com/oc_gettingstarted_windows.html#_Toc223775007
   * Cobol Unit Test
 	  * https://github.com/neopragma/cobol-unit-test/wiki/03.-Usage-guide
 
